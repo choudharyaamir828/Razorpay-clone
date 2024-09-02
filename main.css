@@ -8,3 +8,23 @@
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
+.moveImage{
+   animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+
+  0%{
+    top: 0;
+  }
+  100%{
+    top: -50%;
+  }
+  
+}
+ 
+.company-gradient{
+  background: linear-gradient(0deg, #f4f8ff,#fff0);
+  
+  
+}
