@@ -933,48 +933,431 @@
         
 
                 <!-- left button -->
-                <button>
-                  <div>
-                    <i class="fa-solid fa-chevron-left w-5 h-5 text-gray-400 font-extrabold"></i>
+                <button class="absolute w-[100px] h-[100px] bg-[#f4f8ff] rounded-full left-0 top-1/2 felx justify-center items-center">.
+                  <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
+                    <i class="fa-solid fa-chevron-left storke-[5px]  w-6 h-6 md:w-10 text-gray-400 font-extrabold "></i>
                   </div>
                 </button>
 
                 <!-- Right Button -->
-                <button>
-                  <div>
+                <button class="absolute w-[100px] h-[100px] bg-[#f4f8ff] rounded-full right-0 top-1/2 felx justify-center items-center">.
+                  <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
                     <i class="fa-solid fa-chevron-right w-5 h-5 text-gray-400 font-extrabold"></i>
                   </div>
                 </button>
                 
 
                 <!-- main content -->
-                 <div>
+                 <div class="flex flex-row max-[960px] items-center mx-auto my-20 space-x-[10rem] justify-center">
                   <!-- left image  -->
-                   <img src="./images/testimonial.jpg" alt="">
+                   <img src="./images/testimonial.jpg" alt="" loading="lazy" height="320px" width="320px"
+                   class="rounded-xl">
 
                    <!-- right part -->
 
-                   <div>
-                    <img src="./images/quotes.svg" alt="">
-                    <p>Readmade Closed Wallet <br> Solution For Quick Refunds </p>
-                    <a href=""></a>
-                    <h3>Lorem Ipsum</h3>
-                    <p>CEO, XYZ Engineering Company</p>
-                    <img src="./images/fake-company-logo.png" alt="">
+                   <div class="max-w[400px] ">
+                    <img src="./images/quotes.svg" alt="" loading="lazy" width="35px" height="40px"
+                    class="-md-2">
+                    <p class="font-mullish text-3xl font-extrabold">Readmade Closed Wallet <br> Solution For Quick Refunds </p>
+                    <a href="#" class="text-grayText italic underline">Learn More</a>
+                    
+                    <h2 class="font-mullish font-extrabold text-2xl">Lorem Ipsum</h2>
+                    <p class="font-mullish font-medium">CEO, XYZ Engineering Company</p>
+                    <img src="./images/fake-company-logo.png" alt="" loading="lazy" width="80px" height="40px"
+                    class="">
                    </div>
                  </div>
 
                  <!-- 6 dot wala div -->
-                  <div>
-                    <div></div>
+                  <div class="  flex flex-row mx-auto space-x-2 justify-center items-center">
+                    <!-- dot-1 -->
+                    <div class=" h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+
+                    <div class=" h-[10px] w-[10px] rounded-full bg-lightBlue"></div>
+
+                    <div class=" h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+
+                    <div class=" h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+
+                    <div class=" h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+                    
                   </div>
         </div> 
 
         
        </section>
 
+       <!-- call to action -->
+      <section class="relative bg-[url(./images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover  ctasection min-h-[570px]">
+        <!-- main content -->
+        <div class="w-11/12 max-w-[1080px] flex flex-row items-center justify-between space-x-20 mx-auto pt-16">
+            <!-- left part-->
+             <div class="flex flex-col gap-4 max-w-[600px]" >
+                <h2 class="font-mullish text-xl font-bold mt-16 text-white mb-3">Suercharge your business with Razorpay</h2>
+                <div class="w-6 h-1 bg-greenLight "></div>
+                <p class="font-mullish text-white ">Sign up now to experience the future of payments and Offer
+                  your customers the best checkout experience
+                </p>
+
+                <ul class="flex flex-row flex-wrap gap-1 space-y-2 text-white  items-baseline space-x-10" >
+                  <li  class="flex font-mullish text-white flex-row ">
+                    <i class="fa-solid fa-check  text-greenLight "></i>
+                    <span>Quick Onboarding </span>
+
+
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check  text-greenLight "></i>
+                    <span>Access to entire product suite  </span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check  text-greenLight "></i>
+                    <span>API access</span>
+                  </li>
+                  
+                  <li>
+                    <i class="fa-solid fa-check  text-greenLight "></i>
+                    <span>24x7 support</span>
+                  </li>
+                </ul>
+
+                <button class="bg-white text-lightBlue font-mullish 
+              font-bold hover:bg-greenLight transition-all duration-200
+              py-[10px] px-[10px] w-40 rounded 
+              ">Sign Up Now</button>
+
+               
+             </div>
+              <!-- right side wali image -->
+              <div>
+                <img src="./images/ctaImg.svg" alt=""
+              width="240px" height="282px"
+              class="mt-16 pt-5" >
+              </div>
+        </div>
+      </section>
+
 
   </div>
+  <!-- footer -->
+
+  <footer class="-mt-[400px] md:-mt-[300px]">
+    <div class="w-10/12 pt-[400px] pb-10  max-w-[1080px] mx-auto flex justify-center  space-x-16  ">
+      <!-- col-1 -->
+      <div class="max-w-[250px]">
+        <img src="./images/logo-dark.svg" alt="" loading="lazy" width="120px" height="24px">
+        <p class="font-mullish leading-normal opacity-80 mb-5 mt-6">
+              Razorpay is the only payments solution in India that allows 
+              businesses to accept, process and disburse payments with
+              its product suite. It gives you access to all payment modes including
+              credit card, debit card, netbanking, UPI and popular wallets including
+              JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
+        </p>
+        <p class="font-mullish leading-normal opacity-80 mb-7 " >
+            RazorpayX supercharges your business banking experience, bringing
+            effectiveness, efficiency, and excellence to all financial processes.
+            With RazorpayX, businesses can get access to fully-functional current 
+            accounts, supercharge their payouts and automate payroll compliance.
+        </p>
+        <p class="font-mullish leading-normal opacity-80 mb-7 ">
+          Manage your marketplace, automate bank transfers, collect recurring 
+          payments, share invoices with customers and avail working capital 
+          loans - all from a single platform. Fast forward your business with 
+          Razorpay.
+        </p>
+        <p class="font-mullish leading-normal opacity-80 mb-4 ">
+          Disclaimer: The RazorpayX powered Current Account and VISA corporate 
+          credit card are provided by RBI licensed banks. Your RazorpayX powered 
+          account is provided by our partner bank, in accordance with RBI regulations. 
+          RazorpayX itself is not a bank and doesn't hold or claim to hold a banking 
+          license.
+        </p>
+        
+        <h2 class="font-mullish font-bold text-xl  text-gray-600">Subscribe to our Newsletter</h2>
+        <form action="">
+          <label for="fname"></label><br>
+          
+          <input type="text" id="fname" name="fname" placeholder="Your Email Address">
+        </form>
+        <div class="flex mt-4  items-start space-x-4"> 
+          <img src="./images/footer-certificate-1.png" alt="" loading="lazy" width="92" height="40">
+          <img src="./images/footer-certificate-2.jpg" alt="" loading="lazy" width="122" height="80">
+
+        </div>
+      </div>
+
+      <!-- col-2 -->
+      <div class="min-w-[200px] space-y-3" >
+          <div>
+            <h3 class="space-y-2 font-mullish">BANKING PLUS</h3>
+            <ul class=" text-lightBlue curser-pointer font-mullish space-y-2 ">
+              <li>
+                  <a href="#">RazorpayX</a>
+                  
+              </li>
+              <li>
+                  <a href="#">Current Account</a>
+                
+              </li>
+              <li>
+                  <a href="#">Payouts</a>
+              </li>
+              <li>
+                  <a href="#">Payout Links</a>
+              </li>
+              <li>
+                <a href="#">Corporate Credit Card</a>
+              </li>
+              <li class="flex gap-2 ">
+                <a href="#">View Line Demo</a>
+                <button class="py-3 px-5 font-mullish text-white bg-green-500 border border-r-2
+                text-sm font-bold rounded-sm flex items-center  h-2 w-15 " >New</button>
+               
+              </li>
+            </ul>
+            
+          </div>
+         
+      <!-- list-2 --> 
+           <div>
+            <h2 class="font-mullish">LENDING</h2>
+            <ul class=" text-lightBlue curser-pointer font-mullish space-y-2">
+            
+              <li>
+                <a href="#">Razorpay Capital</a>
+              </li>
+              <li>
+                <a href="#">Instant Settlements</a>
+               </li>
+              <li>
+                <a href="#">Working Capital loans</a>
+              </li>
+              <li> 
+                <a href="#">marketplace Instant Settlements</a>
+               </li>
+             </ul>
+           </div>
+           <!-- list-3 -->
+              <div>
+                <h2 class="font-mullish">RISK & FRAUD</h2>
+                <ul class=" text-lightBlue curser-pointer font-mullish space-y-2">
+                  <li>
+                    <a href="#">Thirdwatch</a>
+                  </li>
+                  <li class="flex gap-2">
+                    <a href="#">prepay CoD</a>
+                    <button class="py-3 px-5 font-mullish text-white bg-green-500 border border-r-2
+                    text-sm font-bold rounded-sm flex items-center  h-2 w-15 " >New</button>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- list-4 -->
+                <div>
+                  <h2 class="font-mullish">BEFORE A PARTNER</h2>
+                  <ul class="space-y-2 text-lightBlue curser-pointer font-mullish">
+                    <li>
+                      <a href="#">Refer and Earn</a>
+                    </li>
+                    <li>
+                      <a href="#">Onboarding</a>
+
+                       </li>
+                  </ul>
+                </div>
+
+                <!-- list-5 -->
+                 <div>
+                  <h2 class="font-mullish">MORE</h2>
+                  <ul class="space-y-2 text-lightBlue curser-pointer font-mullish">
+                    <li>
+                      <a href="#">Route</a>
+                    </li>
+                    <li>
+                      <a href="#">Invoices</a>
+                    </li>
+                    <li>
+                      <a href="#">Freelancer Paymentsli </a>
+                    </li>
+                    <li>
+                      <a href="#">international</a>
+                     </li>
+                    <li>
+                      <a href="#">Flash Chechout</a>
+                    </li>
+                    <li>
+                      <a href="#">UPI</a>
+                    </li>
+                    <li>
+                      <a href="#">ePOS</a>
+                    </li>
+                    <li>
+                      <a href="#">Chechout Demo</a>
+                    </li>
+                    <li>
+                      <a href="#">RazorpayX Payroll</a>
+                    </li>
+                  </ul>
+
+                 </div>
+        
+      </div>
+
+      <!-- col-3 -->
+      <div>
+
+           <!-- list-1 -->
+           <div>
+            <h2 class="space-y-2 font-mullish ">ACCEPTPAYMENTS</h2>
+            <UL class="space-y-2 font-mullish text-lightBlue curser-pointer">
+              <li>Payment Gateway</li>
+              <li>Payment Pages  </li>
+              <li>Payment Links</li>
+              <li>QR Code</li>
+              <li>Subscriptions</li>
+              <li>Smart Collect</li>
+            </UL>
+          </div>
+
+          <!-- list-2 -->
+           <div>
+            <h2 class="space-y-2 font-mullish">DEVELOPERS</h2>
+            <ul class="space-y-2 font-mullish text-lightBlue curser-pointer">
+              <li>Docs</li>
+              <li>Integrations</li>
+              <li>API Reference</li>
+            </ul>
+            
+           </div>
+
+           <!-- list-3 -->
+             <div>
+              <h2 class="space-y-2 font-mullish">RESOURCES</h2>
+              <ul class="space-y-2 font-mullish text-lightBlue curser-pointer">
+                <li>Blog</li>
+                <li>customer Stories </li>
+                <li>Events </li>
+                <li>Chargeback Guide </li>
+                <li> Settlement Guide </li>
+              </ul>
+             </div>
+
+             <!-- list-4 -->
+                <div>
+                  <h2 class="space-y-2 font-mullish">SOLUTIONS</h2>
+                  <ul class="space-y-2 font-mullish text-lightBlue curser-pointer">
+                    <li>Education</li>
+                    <li>E-commerce</li>
+                    <li>Saas</li>
+                    <li>BFSI</li>
+                  </ul >
+                </div>
+
+                <!-- list-5 -->
+                 <div>
+                  <h2 class="space-y-2 font-mullish">FREE TOOLS</h2>
+
+                  <ul class="space-y-2 font-mullish text-lightBlue curser-pointer">
+                    <li>GST Calculator</li>
+                    <li>Online TDS Payment</li>
+                    <li>GST Number Search New</li>
+                  </ul>
+                 </div>
+
+                
+
+
+
+      </div>
+
+      <!-- col-4 -->
+      <div>
+          <!-- list-1 -->
+           <div>
+            <h2 class="space-y-2 font-mullish">COMPANY</h2>
+            <ul class="space-y-2 font-mullish text-lightBlue curser-pointer">
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Careers We're hiring!</a>
+              </li>
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#">Grivance Redressal</a>
+              </li>
+              <li>
+                <a href="#">Resposible Disclosure</a>
+              </li>
+              <li>
+                <a href="#">Payments </a>
+              </li>
+              <li>
+                <a href="#">White Papers</a>
+               </li>
+              <li>
+                <a href="#">Corporate Information</a>
+               </li>
+            </ul>
+           </div>
+
+           <!-- list-2 -->
+            <div>
+              <h2 class="space-y-2 font-mullish">HELP & SUPPORT</h2>
+              <ul class="space-y-2 font-mullish text-lightBlue curser-pointer" >
+                <li>
+                  <a href="#">Support</a>
+                </li>
+                <li>
+                  <a href="#">Knowledge base</a>
+                </li>
+              </ul>
+            </div>
+            <!-- list-3 -->
+             <div>
+              <h2 class="mb-4 font-mullish">FIND OFFICE ADDRESS</h2>
+                  <!-- social media link -->
+                   <div class="flex space-x-3">
+                    <img src="./images/facebook-icon.svg" alt="" loading="lazy">
+                    <img src="./images/twitter-icon.svg" alt="" loading="lazy">
+                    <img src="./images/instagram-icon.svg" alt="" loading="lazy">
+                    <img src="./images/github-icon.svg" alt="" loading="lazy">
+                    <img src="./images/" alt="">
+                   </div>
+             </div>
+
+             <!-- list-4 -->
+              <div>
+                <h2 class="mt-4 font-mullish mb-4 ">REGD. OFFICE ADDRESS</h2>
+                <p class="font-mullish">Razorpay Software Private Limited,
+                  1st Floor, SJR Cyber,
+                  22 Laskar Hosur Road, Adugodi,
+                  Bengaluru, 560030,
+                  Karnataka, India
+                  CIN: U72200KA2013PTC097389</p>
+              </div>
+
+              <p class="font-mullish mt-4">© Razorpay 2022 <br>
+
+                All Rights Reserved</p>
+
+
+      </div>
+        
+    </div>
+   
+
+
+
+  </footer>
+
+ 
+
 
     
     
